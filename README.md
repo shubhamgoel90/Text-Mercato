@@ -26,7 +26,7 @@ else:
 
 We can cluster the similar image together using the K-Means Algorithm. The algorithm works on generating clusters. The user enters the cluster size and depending on that the algorithm finds the Euclidean distance between the point and the cluster’s centers and then point is grouped into that cluster which has the minimum distance with it. 
 
-In the grouping the images, first we have entered the number of clusters and then we are converting all the images into pixels and then finding their minimum Euclidean distance and grouping those images toghether and copying those images into the new directory. As the grouping is done based on pixels and distance, the result is not 100% accurate but it is quite good from the 1st approach. 
+In the grouping the images, first we have entered the number of clusters and then we are converting all the images into pixels and then finding their minimum Euclidean distance and grouping those images together and copying those images into the new directory. As the grouping is done based on pixels and distance, the result is not 100% accurate but it is quite good from the 1st approach. 
 
 ![picture alt](/Screenshots/K_Means_Clustering.png "K-Means Clustering")
 
